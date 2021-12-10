@@ -39,3 +39,20 @@
     transform: translateX(-350px);
     transition: all 500ms ease-in;
 }
+
+.page__wrapper {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.page {
+    width: 50px;
+    margin-right: 5px;
+    background: red;
+}
+
+.page__current {
+    background: teal !important;
+    color: white !important;
+    font-weight: bold;
+}
