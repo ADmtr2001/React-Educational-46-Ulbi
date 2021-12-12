@@ -12,3 +12,8 @@
     background-color: teal;
     color: white;
 }
+
+.myBtn a {
+    text-decoration: none;
+    color: inherit;
+}
