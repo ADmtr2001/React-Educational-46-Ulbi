@@ -6,10 +6,11 @@
 
 #root {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.App {
+.Posts {
     width: 800px;
 }
 
@@ -20,6 +21,11 @@
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+}
+
+.post__btns {
+    display: flex;
+    margin-left: 5px;
 }
 
 .post-enter {
@@ -56,3 +62,31 @@
     color: white !important;
     font-weight: bold;
 }
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgray;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
